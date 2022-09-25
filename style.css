@@ -1,0 +1,38 @@
+.done{
+    text-decoration:2px line-through red;
+    
+}
+div{
+    min-height: max-content;
+    background-color: rgba(183, 185, 19, 0.76);
+    text-align: center;
+    margin: auto;
+    padding-bottom: 1em;
+    border-radius: .4em;
+}
+div ul li{
+    list-style-type: upper-roman;
+    list-style-position:inside;
+    text-align: center;
+    text-transform:capitalize;
+    padding: .3em;
+    font-size: 1.2em;
+    border-bottom: 1px solid black;
+}
+input:hover{
+    transform: rotate(-3deg);
+    transition: .5s;
+    transform: scale(1.05); 
+}
+button:hover{
+    transform: scale(1.1);
+    transition: .7s;
+    transform: rotate(5deg);
+
+}
+li button{
+    border: none;
+    border-radius: .4em ;
+    padding: .5em 1em;
+    margin-left: 8em;
+}
