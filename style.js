@@ -19,7 +19,6 @@ const createListElement=()=>{
     li.appendChild(deletebutton);
     deletebutton.onclick = removeParent;
 }
-
 const addListAfterClick=()=>{
     if(inputlength() > 0){
         createListElement(); 
